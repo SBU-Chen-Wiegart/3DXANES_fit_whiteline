@@ -196,7 +196,8 @@ for i in range(xanes.shape[1]):
             positive = len(grad[grad>0])
             negative = len(grad[grad<0])
             first_fit = copy.deepcopy([popt[0], popt[1], popt[2], perr[0], perr[1], perr[2]])
-            
+
+        #### Criteria to auto-tune fitting range ####             
             # fit_start = max_idx - start
             # fit_end = max_idx + end
             num_point = fit_end - fit_start
