@@ -7,4 +7,4 @@ Read_tiff_gaussian_05_20200605.py --> First verison, only export fitting peaks
 
 3D_XANES_fitting_v2_41544.py --> Update to export all fitting parameters
 
-
+2D_XANES_fitting_92266_bin4_20210818.py --> Add more ciriteria to auto-tune fitting range
